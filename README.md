@@ -1,6 +1,6 @@
 # S&P 500 Option Pricing Analyzer (Black-Scholes Model)
 
-This is a prototype web application built with Streamlit that calculates theoretical European-style call option prices using the Black-Scholes model. It analyzes multiple S&P 500 stocks in real-time, calculates their option values, and ranks them based on potential pricing advantage.
+This is a prototype web application built with Streamlit that estimates theoretical call option prices for S&P 500 stocks using the Black-Scholes model. It fetches recent market data, calculates implied option values under standardized assumptions, and ranks stocks by the highest model-based call prices.
 
 ---
 
