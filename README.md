@@ -15,7 +15,7 @@ This tool is designed to help developers, data scientists, and finance professio
 The application performs the following operations:
 
 1. **Retrieves the list of S&P 500 tickers**  
-   Pulls the current list from a public CSV source.
+   Pulls the current list from a Alpha Vantage API.
 
 2. **Fetches adjusted close price data**  
    For each selected stock, it uses the Alpha Vantage API to retrieve the most recent 30 days of adjusted daily close prices.
